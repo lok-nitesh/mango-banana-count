@@ -1,0 +1,52 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+}
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+}
+.heading {
+  font-weight: bold;
+  color: black;
+}
+.img {
+  height: 30vh;
+  width: 30vh;
+}
+.bg-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 80vh;
+  width: 80vw;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+.imgs-container {
+  display: flex;
+  flex-direction: row;
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.button {
+  background-color: #007bff;
+  border-radius: 5px;
+  border: #007bff solid 2px;
+  margin: 2px;
+  color: white;
+}
+.count {
+  color: #ffd569;
+}
